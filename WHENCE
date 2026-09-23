@@ -7010,6 +7010,26 @@ Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
 --------------------------------------------------------------------------
 
+Driver: qcom_q6v5_pas, adreno, iris - Samsung Galaxy Book4 Edge NP750XQB firmware
+
+File: qcom/x1p42100/SAMSUNG/NP750XQB/qcdxkmsucpurwa.mbn
+File: qcom/x1p42100/SAMSUNG/NP750XQB/qcvss8380.mbn
+File: qcom/x1p42100/SAMSUNG/NP750XQB/qcadsp8380.mbn
+File: qcom/x1p42100/SAMSUNG/NP750XQB/adsp_dtbs.elf
+RawFile: qcom/x1p42100/SAMSUNG/NP750XQB/adspr.jsn
+RawFile: qcom/x1p42100/SAMSUNG/NP750XQB/adsps.jsn
+RawFile: qcom/x1p42100/SAMSUNG/NP750XQB/adspua.jsn
+File: qcom/x1p42100/SAMSUNG/NP750XQB/qccdsp8380.mbn
+File: qcom/x1p42100/SAMSUNG/NP750XQB/cdsp_dtbs.elf
+RawFile: qcom/x1p42100/SAMSUNG/NP750XQB/cdspr.jsn
+
+Info: Extracted from the Windows DriverStore packages qcdx8380,
+qcsubsys_ext_adsp8380, and qcnspmcdm_ext_cdsp8380 on the NP750XQB.
+
+Licence: Unknown
+
+--------------------------------------------------------------------------
+
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
@@ -9671,6 +9691,7 @@ File: qcom/x1e80100/dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+Link: qcom/x1e80100/X1P42100-GalaxyBook4Edge-tplg.bin -> LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
 File: qcom/x1e80100/X1P42100-Microsoft-Surface-Pro-12in-tplg.bin
 
 Version: v1.0.4
