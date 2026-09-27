@@ -7194,6 +7194,21 @@ Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
 --------------------------------------------------------------------------
 
+Driver: qcom_q6v5_pas, adreno - Samsung Galaxy Book4 Edge NP940XMA firmware
+
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qcadsp8380.mbn
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/adsp_dtbs.elf
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/qccdsp8380.mbn
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/cdsp_dtbs.elf
+
+Info: Extracted from the Windows DriverStore packages qcdx8380,
+qcsubsys_ext_adsp8380, and qcnspmcdm_ext_cdsp8380 on the NP940XMA.
+
+Licence: Unknown
+
+--------------------------------------------------------------------------
+
 Driver: qcom_q6v5_pas, adreno, iris - Samsung Galaxy Book4 Edge NP750XQB firmware
 
 File: qcom/x1p42100/SAMSUNG/NP750XQB/qcdxkmsucpurwa.mbn
