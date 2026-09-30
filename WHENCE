@@ -7207,6 +7207,18 @@ qcsubsys_ext_adsp8380, and qcnspmcdm_ext_cdsp8380 on the NP940XMA.
 
 Licence: Unknown
 
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/acdb_cal.acdb
+Version: 1.0.3975.9404 (09/09/2024)
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/ADCMResources.bin
+File: qcom/x1e80100/SAMSUNG/galaxy-book4-edge/workspaceFile.qwsp
+
+Info: NX14 Audio Calibration Settings extracted from the Windows DriverStore
+package qcacsp_ss8380_nx14.inf_arm64_a88d860d9675ac2f on the NP940XMA.
+The calibration data requires AudioReach ACDB loading support; the current
+Linux topology does not consume these files.
+
+Licence: Unknown
+
 --------------------------------------------------------------------------
 
 Driver: qcom_q6v5_pas, adreno, iris - Samsung Galaxy Book4 Edge NP750XQB firmware
@@ -10087,6 +10099,7 @@ File: qcom/x1e80100/dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+Link: qcom/x1e80100/X1E80100-GalaxyBook4Edge-tplg.bin -> LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
 Link: qcom/x1e80100/X1P42100-GalaxyBook4Edge-tplg.bin -> LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
 File: qcom/x1e80100/X1P42100-Microsoft-Surface-Pro-12in-tplg.bin
 
