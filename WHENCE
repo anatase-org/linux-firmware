@@ -3090,6 +3090,13 @@ File: cypress/cyfmac43455-sdio.bin
 Link: brcm/brcmfmac43455-sdio.bin -> ../cypress/cyfmac43455-sdio.bin
 File: cypress/cyfmac43455-sdio.clm_blob
 Link: brcm/brcmfmac43455-sdio.clm_blob -> ../cypress/cyfmac43455-sdio.clm_blob
+File: cypress/cyfmac43455-sdio.raspberrypi.clm_blob
+Version: 1.29.4 (RPi.4, v2 21/11/15)
+Info: From RPi-Distro/firmware-nonfree, commit 5d2295b633d94641253e16ba90fc847436fc9d4a,
+      debian/added-firmware/cypress/cyfmac43455-sdio.clm_blob
+Link: brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.clm_blob -> ../cypress/cyfmac43455-sdio.raspberrypi.clm_blob
+Link: brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.clm_blob -> ../cypress/cyfmac43455-sdio.raspberrypi.clm_blob
+Link: brcm/brcmfmac43455-sdio.raspberrypi,500.clm_blob -> ../cypress/cyfmac43455-sdio.raspberrypi.clm_blob
 File: cypress/cyfmac4354-sdio.bin
 Link: brcm/brcmfmac4354-sdio.bin -> ../cypress/cyfmac4354-sdio.bin
 File: cypress/cyfmac4354-sdio.clm_blob
