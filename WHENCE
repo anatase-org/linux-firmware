@@ -4146,6 +4146,19 @@ File: ath12k/QCC2072/hw1.0/Notice.txt
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
+File: ath12k/WCN7750/hw1.0/aux_ucode.bin
+File: ath12k/WCN7750/hw1.0/board.bin
+File: ath12k/WCN7750/hw1.0/m3.bin
+RawFile: ath12k/WCN7750/hw1.0/qdss.cfg
+File: ath12k/WCN7750/hw1.0/regdb.bin
+File: ath12k/WCN7850/hw2.0/regdb.bin
+
+Licence: Redistributable.
+
+Info: Retroid Pocket Duo WCN7750 firmware and WCN7850 regulatory fallback,
+curated for downstream Anatase packaging from armada-os/armada commit
+ffdb10c (system_files/usr/lib/firmware/ath12k/).
+
 --------------------------------------------------------------------------
 
 Driver: myri10ge - Myri10GE 10GbE NIC driver
@@ -6975,8 +6988,11 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 Version: VIDEO.VPU.3.1-0093
 
 File: qcom/vpu/vpu33_p2_s7.mbn
+File: qcom/vpu/vpu30_p2.mbn
 
 Version: VIDEO.VPU.3.4-0062
+Info: vpu30_p2.mbn is an unchanged copy of vpu33_p2_s7.mbn for the
+filename selected by the Retroid Eliza Iris driver.
 
 File: qcom/vpu/vpu33_p4_s7.mbn
 Link: qcom/vpu/vpu33_p4.mbn -> vpu33_p4_s7.mbn
@@ -7097,6 +7113,7 @@ Version: v1.81
 File: qcom/gmu_gen70200.bin
 Version: v4.01.09
 File: qcom/sm8550/a740_zap.mbn
+File: qcom/sm8550/retroidpocket/a740_zap.mbn
 Version: v0.11
 File: qcom/gen70500_gmu.bin
 Version: v4.03.11
@@ -7164,6 +7181,15 @@ SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+# Retroid Pocket Duo GPU authentication image
+File: qcom/eliza/retroidpocket/rpduo/gen71700_zap.mbn
+
+Licence: Redistributable.
+
+Info: Unchanged copy of qcom/sm7750/retroidpocket/duo/gen70e00_zap.mbn
+from https://github.com/armada-os/armada at commit ffdb10c, installed under
+the filename requested by the Retroid Eliza device tree in Anatase.
 
 # Adreno ZAP shaders for Dell
 File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
@@ -7499,6 +7525,12 @@ RawFile: qcom/eliza/adspr.jsn
 RawFile: qcom/eliza/adsps.jsn
 RawFile: qcom/eliza/adspua.jsn
 
+# Retroid Pocket Duo path for the Qualcomm Eliza CDSP image
+File: qcom/eliza/retroidpocket/rpduo/cdsp.mbn
+File: qcom/eliza/retroidpocket/rpduo/cdsp_dtb.mbn
+Version: CDSP.HT.3.1-00889-PAKALA-1
+Info: Unchanged copies of qcom/eliza/cdsp.mbn and cdsp_dtb.mbn.
+
 # qcom/x1e80100
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
@@ -7537,6 +7569,52 @@ Version: CDSP.HT.2.9.c1-00046-HAMOA-1
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 SPDX-License-Identifier: LicenseRef-LICENSE.dell
+
+# Retroid Pocket 6 and Nova DSP images and service descriptors
+File: qcom/sm8550/retroidpocket/cdsp.mbn
+File: qcom/sm8550/retroidpocket/cdsp_dtb.mbn
+File: qcom/sm8550/retroidpocket/rp6/adsp.mbn
+File: qcom/sm8550/retroidpocket/rp6/adsp_dtb.mbn
+RawFile: qcom/sm8550/retroidpocket/rp6/adspr.jsn
+RawFile: qcom/sm8550/retroidpocket/rp6/adsps.jsn
+RawFile: qcom/sm8550/retroidpocket/rp6/adspua.jsn
+RawFile: qcom/sm8550/retroidpocket/rp6/battmgr.jsn
+File: qcom/sm8550/retroidpocket/rpnova/adsp.mbn
+File: qcom/sm8550/retroidpocket/rpnova/adsp_dtb.mbn
+RawFile: qcom/sm8550/retroidpocket/rpnova/adspr.jsn
+RawFile: qcom/sm8550/retroidpocket/rpnova/adsps.jsn
+RawFile: qcom/sm8550/retroidpocket/rpnova/adspua.jsn
+RawFile: qcom/sm8550/retroidpocket/rpnova/battmgr.jsn
+
+# Retroid Pocket Duo ADSP and split WPSS images
+File: qcom/eliza/retroidpocket/rpduo/adsp.mbn
+File: qcom/eliza/retroidpocket/rpduo/adsp_dtb.mbn
+File: qcom/eliza/retroidpocket/rpduo/wpss.mbn
+File: qcom/eliza/retroidpocket/rpduo/wpss.b00
+File: qcom/eliza/retroidpocket/rpduo/wpss.b01
+File: qcom/eliza/retroidpocket/rpduo/wpss.b02
+File: qcom/eliza/retroidpocket/rpduo/wpss.b03
+File: qcom/eliza/retroidpocket/rpduo/wpss.b04
+File: qcom/eliza/retroidpocket/rpduo/wpss.b05
+File: qcom/eliza/retroidpocket/rpduo/wpss.b06
+File: qcom/eliza/retroidpocket/rpduo/wpss.b07
+File: qcom/eliza/retroidpocket/rpduo/wpss.b08
+File: qcom/eliza/retroidpocket/rpduo/wpss.b09
+File: qcom/eliza/retroidpocket/rpduo/wpss.b10
+File: qcom/eliza/retroidpocket/rpduo/wpss.b12
+
+Licence: Redistributable.
+
+Info: Curated for downstream Anatase packaging from
+https://github.com/armada-os/armada at commit ffdb10c,
+system_files/usr/lib/firmware/qcom/.
+RP6 and Nova share the SM8550 AYN CDSP image selected by Armada's inherited
+qcs8550-ayn-common.dtsi. Their ADSP images and service descriptors are
+device-specific. Duo ADSP and WPSS images come from
+qcom/sm7750/retroidpocket/duo/ in Armada.
+The split WPSS header is copied unchanged from wpss.mdt to wpss.mbn to
+match the Retroid device tree. Its segment files are unchanged; the kernel
+MDT loader supports split segments with either header filename extension.
 
 --------------------------------------------------------------------------
 
@@ -10576,6 +10654,19 @@ SPDX-License-Identifier: BSD-3-Clause
 
 Originates from https://github.com/linux-msm/audioreach-topology.git
 
+File: qcom/sm8550/SM8550-RetroidPocket-I2S-tplg.bin
+File: qcom/eliza/ELIZA-RetroidPocket-I2S-tplg.bin
+Version: retroidpocket/v1.0.5
+
+Licence: Redistributable. See LICENCE.linaro for details
+SPDX-License-Identifier: BSD-3-Clause
+
+Info: Copyright 2026 Teguh Sobirin; Copyright 2021-2024 Linaro Ltd.
+Built with m4 and alsatplg 1.2.16 from SM8550-RetroidPocket-I2S.m4 and
+ELIZA-RetroidPocket-I2S.m4 at commit
+2c2f735ae853e450ea50142435a6585c32711509 of
+https://github.com/RetroidPocket/audioreach-topology.
+
 --------------------------------------------------------------------------
 
 Driver: ti-tas257x - tas257x firmware
@@ -11484,6 +11575,9 @@ File: aw87xxx_acf_flip.bin
 File: aw87xxx_acf_kun.bin
 File: aw87xxx_acf_minipro.bin
 File: aw87xxx_acf_orangepi.bin
+File: qcom/sm8550/retroidpocket/rp6/aw883xx_acf.bin
+File: qcom/sm8550/retroidpocket/rpnova/aw883xx_acf.bin
+File: qcom/eliza/retroidpocket/rpduo/aw883xx_acf.bin
 Link: aw87xxx_acf_air1s.bin -> aw87xxx_acf_minipro.bin
 Link: aw87xxx_acf_airplus.bin -> aw87xxx_acf_minipro.bin
 
@@ -11491,6 +11585,11 @@ Licence: Redistributable.
 
 Info:
 Curated from https://github.com/hhd-dev/hwfirm for Anatase.
+
+The Retroid AW88166 configuration files are curated from
+https://github.com/armada-os/armada at commit ffdb10c.
+Nova uses the RP6 configuration inherited by Armada's Nova device tree.
+Duo uses qcom/sm7750/retroidpocket/duo/aw883xx_acf.bin from Armada.
 
 --------------------------------------------------------------------------
 
